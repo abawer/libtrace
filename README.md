@@ -1,6 +1,6 @@
 # memtrace
 A Simple heap allocation tracer for linux cpp.
-Should track down memory leaks, double frees, free of unallocated memory, using delete for new [] and scenarios and vice versa.
+Should track down memory leaks, double frees, free of unallocated memory, using delete for new [] scenarios and vice versa.
 
 To use it with your code:
 1. create the libtrace.so by running make all at project folder.
